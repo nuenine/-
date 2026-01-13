@@ -1,0 +1,15 @@
+# 忽略编译生成的文件夹
+build/
+install/
+log/
+CMakeFiles/
+
+# 忽略 CMake 缓存文件
+CMakeCache.txt
+*.cmake
+
+# 忽略系统临时文件
+.DS_Store
+
+# 如果 mujoco-3.4.0 是第三方库，建议忽略 (根据文件大小决定)
+mujoco-3.4.0/
